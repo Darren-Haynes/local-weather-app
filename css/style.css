@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Fonts */
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+
+/* Grid System */
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.column {
+  width: 100%;
+}
+
+.top-margin {
+  margin-top: 4rem;
+}
+
+#icon {
+  margin-top: -3rem;
+  text-align: center;
+}
+
+#info {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#temp {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  #icon {
+    margin-top: -2rem;
+  }
+  
+  #info {
+    margin-top: 2rem;
+
+  }
+  #temp {
+    padding-top: 1.5rem;
+  }
+}
