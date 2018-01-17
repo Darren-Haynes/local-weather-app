@@ -1,6 +1,8 @@
 # Local Weather App
 
+View live at [Heroku](https://local-weather.herokuapp.com/index.html) and [Codepen](https://codepen.io/DarrenHaynes/pen/gggxRN).
 ## An assignment as part of the [freeCodeCamp](https://www.freecodecamp.org/) front end web developer course.
+
 
 1. Objective: Build a CodePen.io app that is functionally similar to this: http://codepen.io/FreeCodeCamp/full/bELRjV.
 2. Rule #1: Don't look at the example project's code. Figure it out for yourself.
